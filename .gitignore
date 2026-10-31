@@ -11,6 +11,7 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+.env
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -27,6 +28,15 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
+.idea/
+
+# AI Agent files
+.agent/
+.agents/
+.codex/
+.claude/
+.cursor/
 
 # Gradle cache directory
 .gradle/
